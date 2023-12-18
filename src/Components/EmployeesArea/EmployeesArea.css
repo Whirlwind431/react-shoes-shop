@@ -1,0 +1,22 @@
+.EmployeesArea {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    gap: 25px;
+}
+
+.ElementDiv {
+    border: 1px solid black;
+    width: 500px;
+    box-shadow: 5px 5px 5px rgb(128, 106, 106);
+
+}
+
+.ElementDiv:hover{
+    box-shadow: 5px 5px 5px rebeccapurple;
+
+}

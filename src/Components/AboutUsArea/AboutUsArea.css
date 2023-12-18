@@ -1,0 +1,8 @@
+.AboutUsArea {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-wrap: wrap;
+    text-align: start;
+    padding: 20px;
+}

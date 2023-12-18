@@ -1,0 +1,35 @@
+.ShoesCard {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 2px;
+    box-shadow: 5px 5px 5px black;
+    overflow: hidden;
+}
+
+
+
+.ShoesCard:hover {
+    box-shadow: 5px 5px 5px rgb(98, 13, 182);;
+}
+
+.imgShoeCard {
+    padding: 5px;
+    height: 220px;
+    width: 250px;
+
+}
+
+.imgShoeCard:hover {
+    box-shadow: 2px 2px 2px black;
+}
+
+.spanShoeCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

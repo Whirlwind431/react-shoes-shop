@@ -1,0 +1,14 @@
+.Menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.Menu a {
+    text-decoration: none;
+}
+
+.Menu>.active {
+    color: green
+}
